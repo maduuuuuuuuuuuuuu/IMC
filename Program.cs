@@ -1,0 +1,11 @@
+﻿double peso;
+double altura;
+    Console.WriteLine("desubra seu IMC");
+    Console.WriteLine("");
+    Console.WriteLine("digite seu peso");
+    peso = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("digite sua altura");
+    altura = Convert.ToDouble(Console.ReadLine());
+double IMC;
+    IMC = peso / (altura * altura);
+    Console.WriteLine($"seu IMC é {IMC}");
